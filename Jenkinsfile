@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'linux' }
+  //agent { label 'linux' }
   tools {
     maven 'maven-3.6.3'
   }
