@@ -1,5 +1,5 @@
 pipeline {
-  agent none
+  agent { label 'master' }
   tools {
     maven 'maven-3.6.3'
   }
